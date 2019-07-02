@@ -19,17 +19,12 @@ for i in range(1,pos+1):
     before.append([A,B])
     C = max(A,B)
     resp.append(min(A,B))
-#resp.append(A)
-#print(before)
-#print(pos)
-#print(resp)
 while q>0:
     query = int(input())
     if query <= pos:
         a,b = [x for x in before[query-1]]
         print(str(a) + " " + str(b))
     else:
-        #print("Maxn="+str(maxn))
         a = maxn
         bpos = (query-pos-1)%len(resp)
         b = resp[bpos]
