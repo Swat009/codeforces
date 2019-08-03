@@ -1,5 +1,5 @@
 """
-Tried editorial approach but was not able to pass all test cases even on increaseing the recursion limit.
+Tried editorial approach but was not able to pass all test cases even on increasing the recursion limit.
 Fails on test 33
 """
 from sys import setrecursionlimit
